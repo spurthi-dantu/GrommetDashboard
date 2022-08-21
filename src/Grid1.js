@@ -3,7 +3,7 @@ import { Grommet, Page, PageContent, Header, Heading, DropButton, Button, Text, 
 import { FormDown, Info, Car, Home, Search, History, Grow, Gift, User } from 'grommet-icons'
 import { hpe as theme } from 'grommet-theme-hpe'
 
-import Maincard from './Maincard'
+import Maincard from './MainCard'
 
 
 
