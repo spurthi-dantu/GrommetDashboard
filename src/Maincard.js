@@ -3,14 +3,18 @@ import { Grommet, Page, PageContent, Header, Heading, DropButton, Button, Text, 
 import { FormDown, Info, Car, Home, Search, History, Grow, Gift, User } from 'grommet-icons'
 import { hpe as theme } from 'grommet-theme-hpe'
 
-const Maincard = (props)=>
-    {return(
-        <Card hoverIndicator={{"color":"background-back","opacity":"strong"}} height="small" margin={{"right":"xsmall"}} background={{"color":"white"}}>
+
+//const Maincard = (props)=>
+function Maincard(props){
+    
+   
+    return(
+        <Card hoverIndicator={{"color":"background-back","opacity":"strong"}} height="small" margin={{"right":"xsmall"}} background={{"color":"white"}} >
               <Heading level="4" textAlign="start" margin={{"top":"small","left":"small","vertical":"small","bottom":"xsmall"}}>
                 {props.name}
               </Heading>
               <Text size="small" textAlign="start" margin={{"left":"small"}}>
-                All Time</Text>
+                {props.timeperiod}</Text>
               <Heading textAlign="start" margin={{"left":"small","top":"small", "bottom" : "none"}} level="3" color="black">
                 {props.weight}
               </Heading>
