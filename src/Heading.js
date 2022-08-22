@@ -5,10 +5,18 @@ import { hpe as theme } from 'grommet-theme-hpe'
 
 function Head(){
     return(
+        <>
         <Heading level="3" textAlign="start" margin={{ "right": "small", "bottom": "small" }} truncate={false} size="medium">
             Hi,  Spurthi
 
         </Heading>
+        <Text margin={{"bottom":"xsmall","top":"none"}}>
+          Here's your carbon footprint overview.<br/> 
+          Looking Great so far!
+
+          
+        </Text>
+        </>
         
     )
 }
